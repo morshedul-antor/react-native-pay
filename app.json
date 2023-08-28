@@ -1,0 +1,29 @@
+{
+    "expo": {
+        "name": "Healthx",
+        "slug": "healthx",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./src/assets/icons/icon.png",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "image": "./src/assets/icons/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./src/assets/icons/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
+            },
+            "package": "com.antorr25.healthx"
+        },
+        "web": {
+            "favicon": "./src/assets/icons/favicon.png"
+        }
+    }
+}
