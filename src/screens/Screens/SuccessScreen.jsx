@@ -5,6 +5,7 @@ import TrxId from '../../contexts/trxId'
 export default function SuccessScreen() {
     const [pay, setPay] = useState({})
     const { trxId } = useContext(TrxId)
+    const trx = JSON.parse(trxId)
 
     const apiV1 = ''
     const token = ''
